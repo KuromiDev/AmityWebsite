@@ -978,7 +978,7 @@ body{
             color: white;
             text-shadow: 2px 2px #000000;
             float: left;
-            margin-top: 34%;
+            margin-top: 40%;
             margin-left: 20%;
             user-select: none; 
             max-width: 60%;
@@ -993,8 +993,8 @@ body{
             color: white;
             text-shadow: 1.5px 1.5px #000000;
             float: left;
-            margin-top: 47%;
-            margin-left: -57%;
+            margin-top: 53%;
+            margin-left: -65%;
             user-select: none; 
         }
         
@@ -1006,8 +1006,8 @@ body{
             font-size: 16px;
             cursor: pointer;
             display: inline-block;
-            margin-top: 57%;
-            margin-left: -45%;
+            margin-top: 63%;
+            margin-left: -52%;
             text-decoration: none;
         }
         
@@ -1020,7 +1020,7 @@ body{
             cursor: pointer;
             display: inline-block;
             margin-top: 57%;
-            margin-left: -45%;
+            margin-left: -52%;
             text-decoration: none;
         }
         
@@ -1033,7 +1033,7 @@ body{
             cursor: pointer;
             display: inline-block;
             margin-top: 57%;
-            margin-left: -45%;
+            margin-left: -52%;
             text-decoration: none;
         }
         
@@ -1046,7 +1046,7 @@ body{
             cursor: pointer;
             display: inline-block;
             margin-top: 57%;
-            margin-left: -45%;
+            margin-left: -52%;
             text-decoration: none;
         }
         
@@ -1190,7 +1190,7 @@ body{
             max-width: 100%;
             height: 120px;
             background-color: #303030;
-            margin-top: 100%;
+            margin-top: 120%;
             color: white;
             text-decoration: none;
             font-family:'Trebuchet MS', sans-serif;
