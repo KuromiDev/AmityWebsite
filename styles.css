@@ -474,7 +474,7 @@ body{
 
     #showcase1{
         width: 100%;
-        height: 450px;
+        height: 525px;
         background-color: #FFFFFF;
         position: relative;
     }
@@ -510,7 +510,7 @@ body{
 
     #showcase2{
         width: 100%;
-        height: 410px;
+        height: 380px;
         background-color: rgba(244, 243, 243);
         position: relative;
     }
@@ -584,7 +584,7 @@ body{
         max-width: 100%;
         height: 120px;
         background-color: #303030;
-        margin-top: 290%;
+        margin-top: 235%;
         color: white;
         text-decoration: none;
         font-family:'Trebuchet MS', sans-serif;
@@ -756,7 +756,7 @@ body{
       
       #showcase2{
           width: 100%;
-          height: 580px;
+          height: 450px;
           background-color: rgba(244, 243, 243);
       }
       
@@ -886,7 +886,7 @@ body{
           max-width: 100%;
           height: 120px;
           background-color: #303030;
-          margin-top: 160%;
+          margin-top: 120%;
           color: white;
           text-decoration: none;
           font-family:'Trebuchet MS', sans-serif;
@@ -903,304 +903,301 @@ body{
 }
 
 
-}
+    @media only screen and (max-width: 1024px) {
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f8f6f6;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            position: fixed;
+            z-index: 2;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 20px 40px;
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+        
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: rgba(185, 192, 196);
+        }
+        
+        body{
+            margin: 0;
+        }
+        
+        #mainimagearea{
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(to bottom right, rgb(254, 1, 178), rgb(123, 0, 255));
+        }
+        
+        #logoarea{
+            width: 40%;
+            position: relative;
+            float: left;
+        }
+        
+        #logoimage{
+            position: absolute;
+            display: flex;
+            justify-content: right;
+            width: 350px;
+            height: 350px;
+            top: 120px;
+            left: 25%;
+            
+        }
+        
+        #quickdownload{
+            width: 60%;
+            float: right;
+        }
+        
+        .maintitle{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px #000000;
+            float: left;
+            margin-top: 34%;
+            margin-left: 20%;
+            user-select: none; 
+            max-width: 60%;
+        }
+        
+        .subtitle{
+            max-width: 50%;
+            text-align: center;
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 16px;
+            color: white;
+            text-shadow: 1.5px 1.5px #000000;
+            float: left;
+            margin-top: 47%;
+            margin-left: -57%;
+            user-select: none; 
+        }
+        
+        .downloadbutton{
+            border-radius: 5%;
+            border: none;
+            background-color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 57%;
+            margin-left: -45%;
+            text-decoration: none;
+        }
+        
+        .downloadbutton:hover{
+            border-radius: 5%;
+            border: none;
+            background-color: #eceaea;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 57%;
+            margin-left: -45%;
+            text-decoration: none;
+        }
+        
+        .downloadbutton:active{
+            border-radius: 5%;
+            border: none;
+            background-color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 57%;
+            margin-left: -45%;
+            text-decoration: none;
+        }
+        
+        .downloadbutton:link{
+            border-radius: 5%;
+            border: none;
+            background-color: white;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 57%;
+            margin-left: -45%;
+            text-decoration: none;
+        }
+        
+        
+        #showcase1{
+            width: 100%;
+            height: 940px;
+            background-color: #FFFFFF;
+            position: relative;
+        }
+        
+        #showcase2{
+            width: 100%;
+            height: 450px;
+            background-color: rgba(244, 243, 243);
+        }
+        
+        .leftside{
+            width: 100%;
+            float: left;
+        }
+        
+        .rightside{
+            width: 100%;
+            float: left;
+        }
+        
+        #featuresimage{
+            width: 85%;
+            height: 85%;
+            margin-top: 7%;
+            margin-left: 7%;
+            border-radius: 3%;
+        }
+        
+        .featurestitle{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 35px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;
+            margin-top: 4%;
+            margin-left: 7%;
+            font-weight: bold;
+            user-select: none; 
+        }
+        
+        .featurescontent{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;
+            margin-top: 10%;
+            margin-left: -13.8%;
+            font-weight: bold;
+            overflow: auto;
+            width: 85%;
+            user-select: none; 
+        }
+        
+        
+        #donatebutton{
+            width: 55%;
+            height:55%;
+            margin-top: 0%;
+            margin-left: 21%;
+        }
+        
+        .donatetitle{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 35px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;
+            margin-top: 5%;
+            margin-left: 7%;
+            font-weight: bold;
+            user-select: none; 
+        }
+        
+        .donatecontent{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;
+            margin-top: 5%;
+            margin-left: 7%;
+            font-weight: bold;
+            overflow: auto;
+            width: 100%;
+            user-select: none; 
+            max-width: 85%;
+        }
+        
+        .faqtitle{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 35px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;  
+            margin-top: 2.5%;
+            margin-left: 46%;
+            font-weight: bold;
+            user-select: none; 
+        }
+        
+        .faqcontent{
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-shadow: 2px 2px #ffffff;
+            float: left;
+            margin-top: 3%;
+            margin-left: 15%;
+            margin-bottom: 3%;
+            font-weight: bold;
+            overflow: auto;
+            width: 70%;
+            user-select: none; 
+            text-align: center;
+        }
+        
+        #faqimage{
+            width: 45%;
+            height: 45%;
+            margin-top: 7%;
+            margin-left: 27.5%;
+            border-radius: 3%;
+        }
+        
+        .footerarea{
+            width: 100%;
+            max-width: 100%;
+            height: 120px;
+            background-color: #303030;
+            margin-top: 100%;
+            color: white;
+            text-decoration: none;
+            font-family:'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 0px;
+        }
 
-@media only screen and (max-width: 1024px) {
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #f8f6f6;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        position: fixed;
-        z-index: 2;
-      }
-      
-      li {
-        float: left;
-      }
-      
-      li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 20px 40px;
-        text-decoration: none;
-        font-family:'Trebuchet MS', sans-serif;
-        font-size: 25px;
-      }
-      
-      /* Change the link color to #111 (black) on hover */
-      li a:hover {
-        background-color: rgba(185, 192, 196);
-      }
-      
-      body{
-          margin: 0;
-      }
-      
-      #mainimagearea{
-          width: 100%;
-          height: 500px;
-          background: linear-gradient(to bottom right, rgb(254, 1, 178), rgb(123, 0, 255));
-      }
-      
-      #logoarea{
-          width: 40%;
-          position: relative;
-          float: left;
-      }
-      
-      #logoimage{
-          position: absolute;
-          display: flex;
-          justify-content: right;
-          width: 350px;
-          height: 350px;
-          top: 120px;
-          left: 25%;
-          
-      }
-      
-      #quickdownload{
-          width: 60%;
-          float: right;
-      }
-      
-      .maintitle{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 25px;
-          font-weight: bold;
-          color: white;
-          text-shadow: 2px 2px #000000;
-          float: left;
-          margin-top: 34%;
-          margin-left: 20%;
-          user-select: none; 
-          max-width: 60%;
-      }
-      
-      .subtitle{
-          max-width: 50%;
-          text-align: center;
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 16px;
-          color: white;
-          text-shadow: 1.5px 1.5px #000000;
-          float: left;
-          margin-top: 47%;
-          margin-left: -57%;
-          user-select: none; 
-      }
-      
-      .downloadbutton{
-          border-radius: 5%;
-          border: none;
-          background-color: white;
-          padding: 14px 28px;
-          font-size: 16px;
-          cursor: pointer;
-          display: inline-block;
-          margin-top: 57%;
-          margin-left: -45%;
-          text-decoration: none;
-      }
-      
-      .downloadbutton:hover{
-          border-radius: 5%;
-          border: none;
-          background-color: #eceaea;
-          padding: 14px 28px;
-          font-size: 16px;
-          cursor: pointer;
-          display: inline-block;
-          margin-top: 57%;
-          margin-left: -45%;
-          text-decoration: none;
-      }
-      
-      .downloadbutton:active{
-          border-radius: 5%;
-          border: none;
-          background-color: white;
-          padding: 14px 28px;
-          font-size: 16px;
-          cursor: pointer;
-          display: inline-block;
-          margin-top: 57%;
-          margin-left: -45%;
-          text-decoration: none;
-      }
-      
-      .downloadbutton:link{
-          border-radius: 5%;
-          border: none;
-          background-color: white;
-          padding: 14px 28px;
-          font-size: 16px;
-          cursor: pointer;
-          display: inline-block;
-          margin-top: 57%;
-          margin-left: -45%;
-          text-decoration: none;
-      }
-      
-      
-      #showcase1{
-          width: 100%;
-          height: 940px;
-          background-color: #FFFFFF;
-          position: relative;
-      }
-      
-      #showcase2{
-          width: 100%;
-          height: 450px;
-          background-color: rgba(244, 243, 243);
-      }
-      
-      .leftside{
-          width: 100%;
-          float: left;
-      }
-      
-      .rightside{
-          width: 100%;
-          float: left;
-      }
-      
-      #featuresimage{
-          width: 85%;
-          height: 85%;
-          margin-top: 7%;
-          margin-left: 7%;
-          border-radius: 3%;
-      }
-      
-      .featurestitle{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 35px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;
-          margin-top: 4%;
-          margin-left: 7%;
-          font-weight: bold;
-          user-select: none; 
-      }
-      
-      .featurescontent{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 20px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;
-          margin-top: 10%;
-          margin-left: -13.8%;
-          font-weight: bold;
-          overflow: auto;
-          width: 85%;
-          user-select: none; 
-      }
-      
-      
-      #donatebutton{
-          width: 55%;
-          height:55%;
-          margin-top: 0%;
-          margin-left: 21%;
-      }
-      
-      .donatetitle{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 35px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;
-          margin-top: 5%;
-          margin-left: 7%;
-          font-weight: bold;
-          user-select: none; 
-      }
-      
-      .donatecontent{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 20px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;
-          margin-top: 5%;
-          margin-left: 7%;
-          font-weight: bold;
-          overflow: auto;
-          width: 100%;
-          user-select: none; 
-          max-width: 85%;
-      }
-      
-      .faqtitle{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 35px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;  
-          margin-top: 2.5%;
-          margin-left: 46%;
-          font-weight: bold;
-          user-select: none; 
-      }
-      
-      .faqcontent{
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 20px;
-          color: black;
-          text-shadow: 2px 2px #ffffff;
-          float: left;
-          margin-top: 3%;
-          margin-left: 15%;
-          margin-bottom: 3%;
-          font-weight: bold;
-          overflow: auto;
-          width: 70%;
-          user-select: none; 
-          text-align: center;
-      }
-      
-      #faqimage{
-          width: 45%;
-          height: 45%;
-          margin-top: 7%;
-          margin-left: 27.5%;
-          border-radius: 3%;
-      }
-      
-      .footerarea{
-          width: 100%;
-          max-width: 100%;
-          height: 120px;
-          background-color: #303030;
-          margin-top: 100%;
-          color: white;
-          text-decoration: none;
-          font-family:'Trebuchet MS', sans-serif;
-          font-size: 20px;
-          text-align: center;
-          padding-top: 30px;
-          padding-bottom: 0px;
-      }
-
-}
+    }
