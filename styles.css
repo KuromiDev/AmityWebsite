@@ -756,7 +756,7 @@ body{
       
       #showcase2{
           width: 100%;
-          height: 550px;
+          height: 580px;
           background-color: rgba(244, 243, 243);
       }
       
@@ -886,7 +886,7 @@ body{
           max-width: 100%;
           height: 120px;
           background-color: #303030;
-          margin-top: 130%;
+          margin-top: 140%;
           color: white;
           text-decoration: none;
           font-family:'Trebuchet MS', sans-serif;
